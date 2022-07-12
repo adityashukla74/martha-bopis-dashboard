@@ -149,7 +149,7 @@ function Login() {
                       )}
                       LOGIN
                     </button>
-                    <Link
+                    {/* <Link
                       href="/account/register"
                       className="btn btn-link"
                       style={{
@@ -161,7 +161,7 @@ function Login() {
                       }}
                     >
                       REGISTER
-                    </Link>
+                    </Link> */}
                   </div>
                 </form>
               </div>
