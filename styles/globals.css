@@ -1,0 +1,531 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+@font-face {
+  font-family: "Lato";
+  src: url("/fonts/Lato/Lato-Regular.ttf");
+}
+
+* {
+  font-family: 'Lato' !important;
+}
+
+.ui.button {
+  font-family: 'Lato' !important;
+}
+
+html,
+body {
+  font-family: Lato !important;
+}
+
+.app-container {
+  width: max-content !important;
+}
+
+
+.button,
+.input,
+.optgroup,
+.select,
+.textarea {
+  font-family: Lato !important;
+}
+
+.textAreaColumn {
+  padding-top: 12px !important;
+  padding-left: 2px !important;
+  margin-left: 2px !important;
+}
+
+.navbar {
+  padding-left: 0px !important;
+}
+
+.container-fluid {
+  padding-left: 0px !important;
+}
+.pickupWidth {
+  width: 472px !important;
+}
+
+input[type=button] {
+  outline: none;
+}
+
+.btn-outline-dark.focus, .btn-outline-dark:focus {
+  box-shadow: none !important;
+}
+
+.row {
+  margin-left: 0% !important;
+  margin-right: 0% important;
+  padding-left: 0% !important;
+  padding-right: 0% !important;
+}
+
+.row>* {
+  margin-left: 0% !important;
+  margin-right: 0% important;
+  padding-left: 0% !important;
+  padding-right: 0% !important;
+}
+
+.col-4,
+.col-6 {
+  margin-left: 0% !important;
+  padding-left: 0% !important;
+  margin-right: 0% !important;
+  padding-right: 0% !important;
+}
+
+.orderModalRow {
+  padding-left: 0% !important;
+}
+
+.multiSelectCheckboxes {
+  height: 65px !important;
+  margin-top: 16px !important;
+}
+
+.card-header {
+  background-color: white !important;
+  border: none !important;
+  padding: 0% !important;
+}
+
+.cardParentRow {
+  float: right !important;
+  margin-left: 115px !important;
+  text-align: right !important;
+}
+
+.card-body {
+  padding-left: 0% !important;
+}
+
+.highlightedItems {
+  font-weight: 700 !important;
+  font-size: 16px !important;
+}
+
+/* input field change color */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+.firstHalfBodyStyling {
+  height: 120px;
+  background-color: #ffffff !important;
+}
+
+.secondHalfBodyStyling1 {
+  background-color: #fafafa !important;
+  height: 900px;
+}
+
+.secondHalfBodyStyling2 {
+  background-color: #fafafa !important;
+  height: 860px;
+}
+
+.secondHalfBodyStyling3 {
+  background-color: #fafafa !important;
+  height: 860px;
+}
+
+.innerDivMargin {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.tabSection {
+  height: 80px;
+  padding-top: 29px;
+}
+
+.tabheadlingStyle {
+  font-family: Lato !important;
+  font-size: 20px !important;
+  font-weight: 400 !important;
+  line-height: 24px !important;
+}
+
+th {
+  border: none !important;
+}
+
+.table td,
+.table th {
+  padding-left: 32px !important;
+  vertical-align: middle !important;
+}
+
+.table {
+  color: #545454 !important;
+  width: 1286px !important;
+  font-family: Lato !important;
+}
+
+.horizontalLineStyle {
+  margin-left: 0% !important;
+  margin-right: 0% !important;
+  margin-bottom: 0% !important;
+  margin-top: 40px !important;
+}
+
+.salesAssociateColumn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19.2px;
+}
+
+.customerNameColumn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19.2px;
+}
+
+.normalColumn {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.2px;
+}
+
+.modalOrderColum {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19.2px;
+}
+
+.pickupScheduleColumn {
+  font-weight: 400;
+  font-size: 16px !important;
+  line-height: 19.2px;
+}
+
+.spaceBetweenPrinterIcon {
+  margin-right: 26px;
+}
+.tableHeadingStyling {
+  font-family: Lato !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 32px !important;
+  height: 56px !important;
+}
+
+.tableRowStyling {
+  font-family: Lato !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  /* line-height: 55px !important; */
+  height: 72px !important;
+  background-color: #ffffff !important;
+}
+
+.teamViewFontColor {
+  color: #545454 !important;
+}
+
+.trCustomerColumnStyling {
+  font-family: Lato !important;
+  font-weight: 700 !important;
+}
+
+.firstColumnPadding {
+  width: 250px;
+}
+
+.viewButton {
+  padding: 0% !important;
+  margin: 0% !important;
+  font-family: Lato !important;
+}
+
+.viewButtonStyling {
+  width: 70px !important;
+  height: 32px !important;
+  border: 1px solid #000000 !important;
+  font-weight: 600 !important;
+  line-height: 16.8px !important;
+}
+
+.orderDetailsContentWidth {
+  width: 472px !important;
+}
+
+.printerIconStyling {
+  padding-left: 24px !important;
+  padding-top: 4px !important;
+}
+
+.viewIconStyling {
+  padding-left: 16px !important;
+  padding-top: 4px !important;
+}
+
+.form-group {
+  margin-bottom: 0% !important;
+}
+
+.modalHeadingStyle {
+  font-family: Lato !important;
+  font-weight: 400 !important;
+  font-size: 31px !important;
+  line-height: 37.2px !important;
+  text-align: left !important;
+  height: 37px !important;
+  color: #000000 !important;
+}
+
+.modalSubHeadingRowAlignment {
+  font-family: Lato !important;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 16px;
+  margin-left: 0% !important;
+}
+
+.modalSubHeadingBlockAlignment {
+  font-family: Lato !important;
+  font-size: 20px;
+  line-height: 24px;
+  float: left;
+  padding-right: 10px;
+}
+
+.modalBlockFirstDivStyling {
+  font-weight: 600 !important;
+}
+
+.modalBlockSecondDivStyling {
+  font-weight: 400 !important;
+}
+
+.orderRow {
+  font-family: Lato !important;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+  line-height: 16.8px !important;
+  margin-top: 25px;
+}
+
+.statusDropdownStyle {
+  margin-top: 8px !important;
+}
+
+.formStyling {
+  font-family: Lato !important;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+  line-height: 16.8px !important;
+}
+
+.addCommentsRow {
+  font-family: Lato !important;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+  line-height: 16.8px !important;
+  margin-top: 16px;
+}
+
+.priceStyling {
+  float: right !important;
+  margin-right: 0px !important;
+}
+
+button {
+  padding: 0px !important;
+  font-family: Lato !important;
+}
+
+.submitButton {
+  color: white !important;
+}
+.spanViewButtonStyle {
+  padding-left: 0% !important;
+  padding-right: 0% !important;
+  font-family: Lato !important;
+}
+
+.readyForPickupButtonStyle {
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-family: Lato !important;
+}
+
+.readyForPickupButtonSubStyle {
+  background-color : #FEF3F2;
+  border: 0.5px solid #DC6803;
+  color: #B54708;
+  line-height: 19.2px;
+  height: 32px;
+}
+
+.noShowDeclinedButtonStyle {
+  background-color : #FEF3F2;
+  border: 0.5px solid #D92D20;
+  color: #B54708;
+  line-height: 19.2px;
+  height: 32px;
+}
+.submitButtonStyle {
+  background-color: black;
+  color: white !important;
+  width: 125px;
+  height: 48px;
+  font-family: Lato !important;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  line-height: 19.2px !important;
+  text-align: center;
+}
+
+.cancelButtonStyle {
+  font-family: Lato !important;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  line-height: 19.2px !important;
+  text-align: center;
+  width: 125px;
+  height: 48px;
+  background-color: white;
+  color: black !important;
+  opacity: 0.5 !important;
+}
+
+.registerButtonStyle {
+  color: white !important;
+}
+
+.MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root {
+  font-family: Lato !important;
+  color: #545454 !important;
+}
+
+.[type=button]:not(:disabled),
+[type=reset]:not(:disabled),
+[type=submit]:not(:disabled),
+button:not(:disabled) {
+  font-family: Lato !important;
+  color: #545454 !important;
+}
+
+.MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+  padding-left: 0% !important;
+}
+/* .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  border: solid !important;
+} */
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  color: #545454 !important;
+  font-family: Lato !important;
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  color: #545454 !important;
+  font-family: Lato !important;
+}
+
+.css-j204z7-MuiFormControlLabel-root .MuiFormControlLabel-label {
+  margin-left: 30px;
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+  min-width: 64px !important;
+  width: 64px !important;
+  max-width: 64px !important;
+}
+
+
+.css-dpjnhs-MuiInputBase-root-MuiOutlinedInput-root { 
+  padding : 0px !important;
+  height: 117.52px !important;
+}
+
+
+.label {
+  height: 12px !important;
+  width: 12px !important;
+}
+input[type=radio] {
+  height: 12px !important;
+  width: 12px !important;
+  -webkit-appearance: none;
+  outline: 0.1em solid #C4C4C4;
+  outline-offset: 4px;
+  margin-left: 6px;
+}
+
+input[type=radio]:checked {
+  display: inline-block;
+  background-color: #000;
+
+}
+
+/* multiselect checkbox */
+
+/* input[type=checkbox] {
+  height: 20px;
+  width: 20px;
+  -webkit-appearance: none;
+  outline: 0.1em solid black;
+  outline-offset: 4px;
+  margin-left: 6px;
+}
+
+input[type=checkbox]:checked {
+  display: inline-block;
+  background-color: #000;
+  padding-left: 20px;
+}
+.name {
+  margin-left: 20px;
+}
+.spacingBetweenRadios {
+  margin-top: 22px
+} */
+
+/* semantic checkbox style */
+
+.spacingBetweenRadios {
+  margin-top: 22px
+}
+.name {
+  margin-left: 20px;
+}
+.ui checkbox {
+  width : 20px;
+  /* height: 20px; */
+}
+
+.ui.checkbox label:before,
+.ui.checkbox label:after{
+  width : 20px;
+  border-radius: 0px;
+}
+
+.ui.checkbox label {
+  margin-bottom: 19px;
+  color: #545454;
+}
+
+.labelMargin {
+  margin-bottom: 19px !important;
+}
+
+.hidden {
+  width: 20px;
+  /* height: 20px; */
+}
+/* ends here */
+.css-j204z7-MuiFormControlLabel-root .MuiFormControlLabel-label {
+  margin-top: 10px;
+}
+

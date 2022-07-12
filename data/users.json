@@ -1,0 +1,38 @@
+[
+    {
+        "firstName": "martha",
+        "lastName": "williams",
+        "username": "martha111",
+        "hash": "$2a$10$AAawlCLDhjPKxlVgje5Jk.trUUchC5F.vcupTKguoOL9b.9UPe8Gi",
+        "id": 6,
+        "dateCreated": "2022-05-02T07:03:27.912Z",
+        "dateUpdated": "2022-05-02T07:03:27.912Z"
+    },
+    {
+        "firstName": "martha",
+        "lastName": "w",
+        "username": "martha",
+        "hash": "$2a$10$/unNHr//MFXXS2U/i6EAOuZn9nyPN5naJgbP.p9K/QlFbQshyxS4u",
+        "id": 7,
+        "dateCreated": "2022-07-12T10:21:13.919Z",
+        "dateUpdated": "2022-07-12T10:21:13.919Z"
+    },
+    {
+        "firstName": "james",
+        "lastName": "s",
+        "username": "jamess",
+        "hash": "$2a$10$rzOKABanEmX23XpM52BabuV54cc3Na3NiEHgyVmGvMQFppv4GkMpK",
+        "id": 8,
+        "dateCreated": "2022-07-12T10:21:34.013Z",
+        "dateUpdated": "2022-07-12T10:21:34.013Z"
+    },
+    {
+        "firstName": "chris",
+        "lastName": "neo",
+        "username": "chrisneo",
+        "hash": "$2a$10$4ZNZcFZgIcvCZ/3J3lmAvur9GLQXrI3SKHCYcADpCpNNylLohI8W2",
+        "id": 9,
+        "dateCreated": "2022-07-12T10:21:52.729Z",
+        "dateUpdated": "2022-07-12T10:21:52.729Z"
+    }
+]
