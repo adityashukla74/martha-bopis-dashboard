@@ -43,14 +43,16 @@ function Login() {
             paddingLeft: "109px !important",
             paddingRight: "0% !important",
             paddingTop: '5%',
+            paddingBottom: '5%',
+            marginBottom: '5%',
             width: "100%",
-            height: "85vh",
+            height: "100vh",
           }}
         >
           <Image
             alt="bopis-login-logo"
             src="/login-sur1.png"
-            width="72%" height="100%" layout="responsive"
+            width="72%" height="95vh" layout="responsive"
           />
         </div>
         <div
