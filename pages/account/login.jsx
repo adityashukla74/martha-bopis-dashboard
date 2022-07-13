@@ -53,7 +53,6 @@ function Login() {
             src="/login-sur1.png"
             width={551}
             height={794}
-            objectFit="cover"
           />
         </div>
         <div

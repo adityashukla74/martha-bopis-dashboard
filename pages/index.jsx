@@ -685,6 +685,7 @@ function Home() {
                                           width: "125px",
                                           height: "48px",
                                           color: "black !important",
+                                          border: '1px solid black'
                                         }}
                                       >
                                         <span
@@ -1026,8 +1027,9 @@ function Home() {
                                       style={{
                                         width: "125px",
                                         height: "48px",
+                                        border: '1px solid #000000',
                                         backgroundColor: "#FFFFFF",
-                                        color: "black !important",
+                                        color: "#000000 !important",
                                         fontWeight: '700',
                                         fontSize: '16px',
                                         lineHeight: '19.2px',
@@ -1243,6 +1245,7 @@ function Home() {
                                           width: "125px",
                                           height: "48px",
                                           color: "black !important",
+                                          border: '1px solid black'
                                         }}
                                       >
                                         <span
@@ -1583,6 +1586,7 @@ function Home() {
                                       style={{
                                         width: "125px",
                                         height: "48px",
+                                        border: '1px solid #000000',
                                         backgroundColor: "#FFFFFF",
                                         color: "black !important",
                                         fontWeight: '700',
@@ -1817,6 +1821,7 @@ function Home() {
                                           width: "125px",
                                           height: "48px",
                                           color: "black !important",
+                                          border: '1px solid black'
                                         }}
                                       >
                                         <span
@@ -2175,6 +2180,7 @@ function Home() {
                                       style={{
                                         width: "125px",
                                         height: "48px",
+                                        border: '1px solid #000000',
                                         backgroundColor: "#FFFFFF",
                                         color: "black !important",
                                         fontWeight: '700',
@@ -2378,6 +2384,7 @@ function Home() {
                                           width: "125px",
                                           height: "48px",
                                           color: "black !important",
+                                          border: '1px solid black'
                                         }}
                                       >
                                         <span
@@ -2718,6 +2725,7 @@ function Home() {
                                       style={{
                                         width: "125px",
                                         height: "48px",
+                                        border: '1px solid #000000',
                                         backgroundColor: "#FFFFFF",
                                         color: "black !important",
                                         fontWeight: '700',
@@ -2918,6 +2926,7 @@ function Home() {
                                           width: "125px",
                                           height: "48px",
                                           color: "black !important",
+                                          border: '1px solid black'
                                         }}
                                       >
                                         <span
@@ -2936,7 +2945,7 @@ function Home() {
                                       <button
                                         type="button"
                                         className="submitButton"
-                                        onClick={toggleModal}
+                                        onClick={toggleSamuelOrder}
                                         style={{
                                           backgroundColor: "black",
                                           width: "125px",
@@ -3259,6 +3268,7 @@ function Home() {
                                       style={{
                                         width: "125px",
                                         height: "48px",
+                                        border: '1px solid #000000',
                                         backgroundColor: "#FFFFFF",
                                         color: "black !important",
                                         fontWeight: '700',
@@ -3749,6 +3759,7 @@ function Home() {
                                     style={{
                                       width: "125px",
                                       height: "48px",
+                                      border: '1px solid #000000',
                                       backgroundColor: "#FFFFFF",
                                       color: "black !important",
                                       fontWeight: '700',
@@ -4215,6 +4226,7 @@ function Home() {
                                     style={{
                                       width: "125px",
                                       height: "48px",
+                                      border: '1px solid #000000',
                                       backgroundColor: "#FFFFFF",
                                       color: "black !important",
                                       fontWeight: '700',
@@ -4701,6 +4713,7 @@ function Home() {
                                     style={{
                                       width: "125px",
                                       height: "48px",
+                                      border: '1px solid #000000',
                                       backgroundColor: "#FFFFFF",
                                       color: "black !important",
                                       fontWeight: '700',
@@ -5142,6 +5155,7 @@ function Home() {
                                     style={{
                                       width: "125px",
                                       height: "48px",
+                                      border: '1px solid #000000',
                                       backgroundColor: "#FFFFFF",
                                       color: "black !important",
                                       fontWeight: '700',
@@ -5583,6 +5597,7 @@ function Home() {
                                     style={{
                                       width: "125px",
                                       height: "48px",
+                                      border: '1px solid #000000',
                                       backgroundColor: "#FFFFFF",
                                       color: "black !important",
                                       fontWeight: '700',
@@ -6064,6 +6079,7 @@ function Home() {
                                     style={{
                                       width: "125px",
                                       height: "48px",
+                                      border: '1px solid #000000',
                                       backgroundColor: "#FFFFFF",
                                       color: "black !important",
                                       fontWeight: '700',
@@ -6511,6 +6527,7 @@ function Home() {
                                     style={{
                                       width: "125px",
                                       height: "48px",
+                                      border: '1px solid #000000',
                                       backgroundColor: "#FFFFFF",
                                       color: "black !important",
                                       fontWeight: '700',
@@ -6959,6 +6976,7 @@ function Home() {
                                     style={{
                                       width: "125px",
                                       height: "48px",
+                                      border: '1px solid #000000',
                                       backgroundColor: "#FFFFFF",
                                       color: "black !important",
                                       fontWeight: '700',
