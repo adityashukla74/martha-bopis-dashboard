@@ -44,6 +44,7 @@ function Login() {
             // paddingTop: "115px",
             paddingTop: '5%',
             // paddingBottom: "115px",
+            paddingBottom: '5% !important',
             paddingRight: "0% !important",
             width: "100%",
             height: "auto",
