@@ -16,10 +16,11 @@
 html,
 body {
   font-family: Lato !important;
+  margin: 0; height: 100%; overflow: hidden;
 }
 
 .app-container {
-  width: max-content !important;
+  width: 100% !important;
 }
 
 
@@ -95,7 +96,7 @@ input[type=button] {
 
 .cardParentRow {
   float: right !important;
-  margin-left: 115px !important;
+  margin-left: 7.1875em !important;
   text-align: right !important;
 }
 
@@ -114,8 +115,13 @@ input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
   -webkit-box-shadow: 0 0 0 30px white inset !important;
+  box-shadow: 0 0 0 30px white inset !important;
 }
 
+.nav-logo-styling {
+  margin-right: 40px;
+  padding-right: 40px;
+}
 .firstHalfBodyStyling {
   height: 120px;
   background-color: #ffffff !important;
@@ -124,6 +130,7 @@ input:-webkit-autofill:active {
 .secondHalfBodyStyling1 {
   background-color: #fafafa !important;
   height: 900px;
+  width: '100%';
 }
 
 .secondHalfBodyStyling2 {
@@ -165,7 +172,7 @@ th {
 
 .table {
   color: #545454 !important;
-  width: 1286px !important;
+  width: 100% !important;
   font-family: Lato !important;
 }
 
@@ -236,7 +243,7 @@ th {
 }
 
 .firstColumnPadding {
-  width: 250px;
+  width: max-content;
 }
 
 .viewButton {

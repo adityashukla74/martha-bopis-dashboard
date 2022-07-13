@@ -427,7 +427,7 @@ function Home() {
           <div className="tabSection">
 
             <Tabs
-              style={{ width: "1286px", fontFamily: "Lato !important" }}
+              style={{ width: "100%", fontFamily: "Lato !important" }}
               TabIndicatorProps={{ style: { background: 'black' } }}
               value={tabsValue}
               onChange={handleTabsChange}
@@ -493,17 +493,17 @@ function Home() {
                 >
                   Today's in-store pickup orders.
                 </div>
-                <Table>
+                <Table size="sm">
                   <thead
                     style={{ backgroundColor: "#F0F0F0", lineHeight: "50px" }}
                   >
                     <tr
                       className="tableHeadingStyling">
-                      <th className="firstColumnPadding">PICKUP SCHEDULE</th>
-                      <th>CUSTOMER NAME</th>
-                      <th>ORDER ID</th>
-                      <th>AISLE DETAILS</th>
-                      <th>ORDER STATUS</th>
+                      <th className="firstColumnPadding" style={{width: '18%'}}>PICKUP SCHEDULE</th>
+                      <th style={{width: '21%'}}>CUSTOMER NAME</th>
+                      <th style={{width: '13%'}}>ORDER ID</th>
+                      <th style={{width: '15%'}}>AISLE DETAILS</th>
+                      <th style={{width: '24%'}}>ORDER STATUS</th>
                       <th>DETAILS</th>
                     </tr>
                   </thead>
@@ -3329,7 +3329,7 @@ function Home() {
                   Today's in-store pickup orders.
                 </span>
               </div>
-              <Table className='teamViewFontColor' style={{ marginTop: '9px' }}>
+              <Table size="sm" className='teamViewFontColor' style={{ marginTop: '9px' }}>
                 <thead
                   style={{ backgroundColor: "#F0F0F0", lineHeight: "50px" }}
                 >

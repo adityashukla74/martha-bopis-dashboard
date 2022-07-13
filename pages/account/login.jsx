@@ -41,8 +41,9 @@ function Login() {
           className="col cardParentRow"
           style={{
             paddingLeft: "109px !important",
-            paddingTop: "115px",
-            paddingBottom: "115px",
+            // paddingTop: "115px",
+            paddingTop: '5%',
+            // paddingBottom: "115px",
             paddingRight: "0% !important",
             width: "100%",
             height: "auto",
@@ -60,14 +61,14 @@ function Login() {
           style={{
             width: "420px",
             height: "327px",
-            paddingTop: "349px",
+            paddingTop: "25%",
             paddingRight: "155px",
           }}
         >
           <div>
             <div
               className="card"
-              style={{ border: "none", paddingLeft: "120px" }}
+              style={{ border: "none", paddingLeft: "120px", width: '80%' }}
             >
               <h4
                 className="card-header"

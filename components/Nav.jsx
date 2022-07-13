@@ -30,7 +30,7 @@ function Nav() {
         style={{
           marginLeft: "40px",
           marginRight: "40px",
-          width: "1286px",
+          width: "100%",
           height: "48px",
           paddingLeft: '0% !important',
         }}
@@ -43,7 +43,8 @@ function Nav() {
             justifyContent: "space-between",
             height: '120px',
             paddingTop: '36px',
-            paddingBottom: '36px'
+            paddingBottom: '36px',
+            marginRight: '40px !important'
           }}
         >
           <div style={{ float: "left" }}>
@@ -60,7 +61,7 @@ function Nav() {
           <div style={{ float: "center" }}>
             <Image alt="logo" src="/logo.svg" width={138} height={32} />
           </div>
-          <div style={{ float: "right" }}>
+          <div className= "nav-logo-styling">
             <div className="row">
               <div className="col" style={{ paddingRight: "16px" }}>
                 <div style={{ height: "19px", width: "73px", width: 'max-content' }}>
