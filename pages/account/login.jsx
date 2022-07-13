@@ -41,20 +41,16 @@ function Login() {
           className="col cardParentRow"
           style={{
             paddingLeft: "109px !important",
-            // paddingTop: "115px",
-            paddingTop: '5%',
-            // paddingBottom: "115px",
-            paddingBottom: '5% !important',
             paddingRight: "0% !important",
+            paddingTop: '5%',
             width: "100%",
-            height: "auto",
+            height: "85vh",
           }}
         >
           <Image
             alt="bopis-login-logo"
             src="/login-sur1.png"
-            width={551}
-            height={794}
+            width="72%" height="100%" layout="responsive"
           />
         </div>
         <div
