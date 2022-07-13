@@ -44,8 +44,8 @@ function Login() {
             paddingTop: "115px",
             paddingBottom: "115px",
             paddingRight: "0% !important",
-            width: "551px !important",
-            height: "794px !important",
+            width: "100%",
+            height: "auto",
           }}
         >
           <Image
@@ -53,6 +53,7 @@ function Login() {
             src="/login-sur1.png"
             width={551}
             height={794}
+            objectFit="cover"
           />
         </div>
         <div
@@ -88,7 +89,7 @@ function Login() {
                       fontWeight: "700",
                       fontSize: "14px",
                       lineHeight: "16.8px",
-                      width: "420px",
+                      width: "100%",
                       height: "65px",
                       marginBottom: "0% !important",
                     }}
@@ -113,7 +114,7 @@ function Login() {
                       fontWeight: "700",
                       fontSize: "14px",
                       lineHeight: "16.8px",
-                      width: "420px",
+                      width: "100%",
                       height: "65px",
                       paddingTop: "24px",
                       marginBottom: " 0% !important",

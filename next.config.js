@@ -6,7 +6,7 @@ module.exports = {
     publicRuntimeConfig: {
         apiUrl: process.env.NODE_ENV === 'development'
             // ? 'http://localhost:2000/api' // development api
-            // : 'http://localhost:2000/api' // production api
+            // : 'http://localhost:2000/api' // development api
             ? '/api' // development api
             : '/api' // production api
     }
