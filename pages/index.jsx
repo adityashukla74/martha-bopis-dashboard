@@ -685,7 +685,8 @@ function Home() {
                                           width: "125px",
                                           height: "48px",
                                           color: "black !important",
-                                          border: '1px solid black'
+                                          border: '1px solid black',
+                                          WebkitTextFillColor: 'black',
                                         }}
                                       >
                                         <span
@@ -1246,6 +1247,7 @@ function Home() {
                                           width: "125px",
                                           height: "48px",
                                           color: "black !important",
+                                          WebkitTextFillColor: 'black',
                                           border: '1px solid black'
                                         }}
                                       >
@@ -1823,6 +1825,7 @@ function Home() {
                                           width: "125px",
                                           height: "48px",
                                           color: "black !important",
+                                          WebkitTextFillColor: 'black',
                                           border: '1px solid black'
                                         }}
                                       >
@@ -2387,6 +2390,7 @@ function Home() {
                                           width: "125px",
                                           height: "48px",
                                           color: "black !important",
+                                          WebkitTextFillColor: 'black',
                                           border: '1px solid black'
                                         }}
                                       >
@@ -2930,6 +2934,7 @@ function Home() {
                                           width: "125px",
                                           height: "48px",
                                           color: "black !important",
+                                          WebkitTextFillColor: 'black',
                                           border: '1px solid black'
                                         }}
                                       >
