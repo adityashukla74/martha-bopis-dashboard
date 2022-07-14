@@ -220,7 +220,7 @@ th {
   font-family: Lato !important;
   font-size: 14px !important;
   font-weight: 400 !important;
-  line-height: 32px !important;
+  /* line-height: 32px !important; */
   height: 56px !important;
 }
 

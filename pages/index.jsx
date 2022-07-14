@@ -513,7 +513,10 @@ function Home() {
                 </div>
                 <Table size="sm">
                   <thead
-                    style={{ backgroundColor: "#F0F0F0", lineHeight: "50px" }}
+                    style={{ 
+                      backgroundColor: "#F0F0F0", 
+                      // lineHeight: "50px" 
+                    }}
                   >
                     <tr
                       className="tableHeadingStyling">
@@ -3350,7 +3353,7 @@ function Home() {
               </div>
               <Table size="sm" className='teamViewFontColor' style={{ marginTop: '9px' }}>
                 <thead
-                  style={{ backgroundColor: "#F0F0F0", lineHeight: "50px" }}
+                  style={{ backgroundColor: "#F0F0F0" }}
                 >
                   <tr className="tableHeadingStyling">
                     <th>SALES ASSOCIATE</th>
@@ -3476,7 +3479,8 @@ function Home() {
                             border: "1px solid #DC6803",
                             lineHeight: "19.2px",
                             height: "32px",
-                            fontFamily: 'Lato !important'
+                            fontFamily: 'Lato !important',
+                            minWidth: '149px'
                           }}
                         >
                           <span className='readyForPickupButtonStyle'>
@@ -3945,7 +3949,8 @@ function Home() {
                             border: "1px solid #DC6803",
                             lineHeight: "19.2px",
                             height: "32px",
-                            fontFamily: 'Lato !important'
+                            fontFamily: 'Lato !important',
+                            minWidth: '149px'
                           }}
                         >
                           <span className='readyForPickupButtonStyle'>
@@ -4412,7 +4417,8 @@ function Home() {
                             border: "1px solid #DC6803",
                             lineHeight: "19.2px",
                             height: "32px",
-                            fontFamily: 'Lato !important'
+                            fontFamily: 'Lato !important',
+                            minWidth: '149px'
                           }}
                         >
                           <span className='readyForPickupButtonStyle'>
@@ -5782,7 +5788,8 @@ function Home() {
                             border: "1px solid #DC6803",
                             lineHeight: "19.2px",
                             height: "32px",
-                            fontFamily: 'Lato !important'
+                            fontFamily: 'Lato !important',
+                            minWidth: '149px'
                           }}
                         >
                           <span className='readyForPickupButtonStyle'>
@@ -6252,7 +6259,8 @@ function Home() {
                             border: "1px solid #DC6803",
                             lineHeight: "19.2px",
                             height: "32px",
-                            fontFamily: 'Lato !important'
+                            fontFamily: 'Lato !important',
+                            minWidth: '149px'
                           }}
                         >
                           <span className='readyForPickupButtonStyle'>
@@ -6701,7 +6709,8 @@ function Home() {
                             border: "1px solid #DC6803",
                             lineHeight: "19.2px",
                             height: "32px",
-                            fontFamily: 'Lato !important'
+                            fontFamily: 'Lato !important',
+                            minWidth: '149px'
                           }}
                         >
                           <span className='readyForPickupButtonStyle'>
