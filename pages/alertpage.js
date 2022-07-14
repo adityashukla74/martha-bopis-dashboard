@@ -420,6 +420,24 @@ function Alertpage() {
     };
     const open1 = Boolean(anchorEl1);
 
+    async function acceptedCustomerSms() {
+        console.log('Hi Julie, thank you for checking in! While Martha, your personal shopper is handling your order, feel free to browse our store');
+        const res = await fetch("/api/sendsms", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ to: '+919675875285', body: 'Hi Julie, thank you for checking in! While Martha, your personal shopper is handling your order, feel free to browse our store' }),
+        });
+    
+        const data = await res.json();
+        if (data.success) {
+          console.log('acceptedCustomerSms sms is success');
+        } else {
+          console.log('unable to send sms');
+        }
+    }
+
     return (
         <>
             <div className="secondHalfBodyStyling2">
@@ -481,7 +499,9 @@ function Alertpage() {
                             </div>
                             <div className="row" style={{marginTop: '16px'}}>
                             <Link href="/acknowledgealert" passHref>
-                                <button
+                                <button 
+                                //  onClick={acceptedCustomerSms}
+                                onClick={()=>{acceptedCustomerSms()}}
                                     style={{
                                         height: '48px',
                                         width: '118px',
