@@ -447,7 +447,7 @@ function Alertpage() {
                         style={{
                             width: '1286px',
                             height: '152px',
-                            marginTop: '40px',
+                            // marginTop: '40px',
                             backgroundColor: '#FFFFFF',
                             borderLeft: '4px solid #F04438'
                         }}>
