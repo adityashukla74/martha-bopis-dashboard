@@ -4900,7 +4900,7 @@ function Home() {
                         type="button"
                         className="noShowDeclinedButtonStyle"
                         style={{
-                          width: '87px',
+                          width: '89px',
                           height: '32px'
                         }}
                       >
@@ -5343,7 +5343,7 @@ function Home() {
                         type="button"
                         className="noShowDeclinedButtonStyle"
                         style={{
-                          width: '87px',
+                          width: '89px',
                           height: '32px'
                         }}
                       >
