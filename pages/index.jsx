@@ -3505,7 +3505,7 @@ function Home() {
                       </div>
                     </td>
                     <td>
-                      <div className='row'>
+                      <div className='row' style={{width: 'max-content'}}>
                         <div className="col spaceBetweenPrinterIcon">
                           <button
                             className="thFontColor"
