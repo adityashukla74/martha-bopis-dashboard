@@ -3366,6 +3366,7 @@ function Home() {
                   Today's in-store pickup orders.
                 </span>
               </div>
+              <div className= 'table1'>
               <Table size="sm" className='teamViewFontColor' style={{ marginTop: '9px' }}>
                 <thead
                   style={{ backgroundColor: "#F0F0F0" }}
@@ -3374,7 +3375,7 @@ function Home() {
                     <th>SALES ASSOCIATE</th>
                     <th>ASSIGN</th>
                     <th>PICKUP SCHEDULE</th>
-                    <th>CUSTOMER NAME</th>
+                    <th><div>CUSTOMER NAME</div></th>
                     <th>ORDER ID</th>
                     <th>AISLE DETAILS</th>
                     <th>ORDER STATUS</th>
@@ -7066,6 +7067,8 @@ function Home() {
                   </tr>
                 </tbody>
               </Table>
+              </div>
+              
             </TabPanel>
           </div>
 

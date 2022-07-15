@@ -53,8 +53,8 @@ function App({ Component, pageProps }) {
     return (
         <>
             <Head>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1,user-scalable=0" />
                 <title>Bopis Dashboard</title>
-
                 {/* eslint-disable-next-line @next/next/no-css-tags */}
                 <link href="//netdna.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
             </Head>
