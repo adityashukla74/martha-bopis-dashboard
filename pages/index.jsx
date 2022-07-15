@@ -530,6 +530,7 @@ function Home() {
                   <thead
                     style={{ 
                       backgroundColor: "#F0F0F0", 
+                      whiteSpace: 'nowrap'
                       // lineHeight: "50px" 
                     }}
                   >
@@ -3369,7 +3370,7 @@ function Home() {
               <div className= 'table1'>
               <Table size="sm" className='teamViewFontColor' style={{ marginTop: '9px' }}>
                 <thead
-                  style={{ backgroundColor: "#F0F0F0" }}
+                  style={{ backgroundColor: "#F0F0F0", whiteSpace: 'nowrap' }}
                 >
                   <tr className="tableHeadingStyling">
                     <th>SALES ASSOCIATE</th>

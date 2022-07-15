@@ -568,17 +568,20 @@ function AcknowledgeAlert() {
                 >
                   Today's in-store pickup orders.
                 </div>
-                <Table>
+                <Table size="sm">
                   <thead
-                    style={{ backgroundColor: "#F0F0F0", lineHeight: "50px" }}
+                    style={{ 
+                      backgroundColor: "#F0F0F0", 
+                      // lineHeight: "50px" 
+                    }}
                   >
                     <tr
                       className="tableHeadingStyling">
-                      <th className="firstColumnPadding">PICKUP SCHEDULE</th>
-                      <th>CUSTOMER NAME</th>
-                      <th>ORDER ID</th>
-                      <th>AISLE DETAILS</th>
-                      <th>ORDER STATUS</th>
+                      <th className="firstColumnPadding" style={{width: '18%'}}>PICKUP SCHEDULE</th>
+                      <th style={{width: '21%'}}>CUSTOMER NAME</th>
+                      <th style={{width: '13%'}}>ORDER ID</th>
+                      <th style={{width: '15%'}}>AISLE DETAILS</th>
+                      <th style={{width: '24%'}}>ORDER STATUS</th>
                       <th>DETAILS</th>
                     </tr>
                   </thead>
@@ -594,7 +597,7 @@ function AcknowledgeAlert() {
                         <div className="row">
                           <div style={{ display: "flex", fontFamily: 'Lato !important' }}>
                             <div className="viewButton">
-                              <button
+                            <button
                                 type="button"
                                 style={{
                                   backgroundColor: "#FFFAEB",
@@ -602,7 +605,6 @@ function AcknowledgeAlert() {
                                   border: "1px solid #DC6803",
                                   lineHeight: "19.2px",
                                   height: "32px",
-                                  fontFamily: 'Lato !important'
                                 }}
                               >
                                 <span className='readyForPickupButtonStyle'>
@@ -761,6 +763,8 @@ function AcknowledgeAlert() {
                                           width: "125px",
                                           height: "48px",
                                           color: "black !important",
+                                          border: '1px solid black',
+                                          WebkitTextFillColor: 'black',
                                         }}
                                       >
                                         <span
@@ -771,19 +775,21 @@ function AcknowledgeAlert() {
                                             fontWeight: "bold",
                                           }}
                                         >
-                                          Cancel
+                                          CANCEL
                                         </span>
                                       </button>
                                     </div>
                                     <div className="col">
                                       <button
-                                        type="button"
                                         className="submitButton"
-                                        onClick={toggleJulieOrder}
+                                        type="button"
+                                        // onClick={toggleJulieOrder}
+                                        onClick={()=>{toggleJulieOrder();julieSubmit();}}
                                         style={{
                                           backgroundColor: "black",
                                           width: "125px",
                                           height: "48px",
+                                          color: "#FFFFFF !important",
                                         }}
                                       >
                                         <span
@@ -794,7 +800,7 @@ function AcknowledgeAlert() {
                                             fontWeight: "bold",
                                           }}
                                         >
-                                          Submit
+                                          SUBMIT
                                         </span>
                                       </button>
                                     </div>
@@ -1099,10 +1105,12 @@ function AcknowledgeAlert() {
                                     <button
                                       onClick={toggleMyViewJulieOrderStatusModal}
                                       style={{
+                                        WebkitTextFillColor: 'black',
                                         width: "125px",
                                         height: "48px",
+                                        border: '1px solid #000000',
                                         backgroundColor: "#FFFFFF",
-                                        color: "black !important",
+                                        color: "#000000",
                                         fontWeight: '700',
                                         fontSize: '16px',
                                         lineHeight: '19.2px',
@@ -1318,6 +1326,8 @@ function AcknowledgeAlert() {
                                           width: "125px",
                                           height: "48px",
                                           color: "black !important",
+                                          WebkitTextFillColor: 'black',
+                                          border: '1px solid black'
                                         }}
                                       >
                                         <span
@@ -1328,7 +1338,7 @@ function AcknowledgeAlert() {
                                             fontWeight: "bold",
                                           }}
                                         >
-                                          Cancel
+                                          CANCEL
                                         </span>
                                       </button>
                                     </div>
@@ -1351,7 +1361,7 @@ function AcknowledgeAlert() {
                                             fontWeight: "bold",
                                           }}
                                         >
-                                          Submit
+                                          SUBMIT
                                         </span>
                                       </button>
                                     </div>
@@ -1658,7 +1668,9 @@ function AcknowledgeAlert() {
                                       style={{
                                         width: "125px",
                                         height: "48px",
+                                        border: '1px solid #000000',
                                         backgroundColor: "#FFFFFF",
+                                        WebkitTextFillColor: 'black',
                                         color: "black !important",
                                         fontWeight: '700',
                                         fontSize: '16px',
@@ -1892,6 +1904,8 @@ function AcknowledgeAlert() {
                                           width: "125px",
                                           height: "48px",
                                           color: "black !important",
+                                          WebkitTextFillColor: 'black',
+                                          border: '1px solid black'
                                         }}
                                       >
                                         <span
@@ -1902,7 +1916,7 @@ function AcknowledgeAlert() {
                                             fontWeight: "bold",
                                           }}
                                         >
-                                          Cancel
+                                          CANCEL
                                         </span>
                                       </button>
                                     </div>
@@ -1925,7 +1939,7 @@ function AcknowledgeAlert() {
                                             fontWeight: "bold",
                                           }}
                                         >
-                                          Submit
+                                          SUBMIT
                                         </span>
                                       </button>
                                     </div>
@@ -2250,7 +2264,9 @@ function AcknowledgeAlert() {
                                       style={{
                                         width: "125px",
                                         height: "48px",
+                                        border: '1px solid #000000',
                                         backgroundColor: "#FFFFFF",
+                                        WebkitTextFillColor: 'black',
                                         color: "black !important",
                                         fontWeight: '700',
                                         fontSize: '16px',
@@ -2453,6 +2469,8 @@ function AcknowledgeAlert() {
                                           width: "125px",
                                           height: "48px",
                                           color: "black !important",
+                                          WebkitTextFillColor: 'black',
+                                          border: '1px solid black'
                                         }}
                                       >
                                         <span
@@ -2463,7 +2481,7 @@ function AcknowledgeAlert() {
                                             fontWeight: "bold",
                                           }}
                                         >
-                                          Cancel
+                                          CANCEL
                                         </span>
                                       </button>
                                     </div>
@@ -2486,7 +2504,7 @@ function AcknowledgeAlert() {
                                             fontWeight: "bold",
                                           }}
                                         >
-                                          Submit
+                                          SUBMIT
                                         </span>
                                       </button>
                                     </div>
@@ -2793,7 +2811,9 @@ function AcknowledgeAlert() {
                                       style={{
                                         width: "125px",
                                         height: "48px",
+                                        border: '1px solid #000000',
                                         backgroundColor: "#FFFFFF",
+                                        WebkitTextFillColor: 'black',
                                         color: "black !important",
                                         fontWeight: '700',
                                         fontSize: '16px',
@@ -2993,6 +3013,8 @@ function AcknowledgeAlert() {
                                           width: "125px",
                                           height: "48px",
                                           color: "black !important",
+                                          WebkitTextFillColor: 'black',
+                                          border: '1px solid black'
                                         }}
                                       >
                                         <span
@@ -3003,7 +3025,7 @@ function AcknowledgeAlert() {
                                             fontWeight: "bold",
                                           }}
                                         >
-                                          Cancel
+                                          CANCEL
                                         </span>
                                       </button>
                                     </div>
@@ -3011,7 +3033,7 @@ function AcknowledgeAlert() {
                                       <button
                                         type="button"
                                         className="submitButton"
-                                        onClick={toggleModal}
+                                        onClick={toggleSamuelOrder}
                                         style={{
                                           backgroundColor: "black",
                                           width: "125px",
@@ -3026,7 +3048,7 @@ function AcknowledgeAlert() {
                                             fontWeight: "bold",
                                           }}
                                         >
-                                          Submit
+                                          SUBMIT
                                         </span>
                                       </button>
                                     </div>
@@ -3334,7 +3356,9 @@ function AcknowledgeAlert() {
                                       style={{
                                         width: "125px",
                                         height: "48px",
+                                        border: '1px solid #000000',
                                         backgroundColor: "#FFFFFF",
+                                        WebkitTextFillColor: 'black',
                                         color: "black !important",
                                         fontWeight: '700',
                                         fontSize: '16px',
@@ -3384,15 +3408,16 @@ function AcknowledgeAlert() {
                   Today's in-store pickup orders.
                 </span>
               </div>
-              <Table className='teamViewFontColor' style={{ marginTop: '9px' }}>
+              <div className= 'table1'>
+              <Table size="sm" className='teamViewFontColor' style={{ marginTop: '9px' }}>
                 <thead
-                  style={{ backgroundColor: "#F0F0F0", lineHeight: "50px" }}
+                  style={{ backgroundColor: "#F0F0F0" }}
                 >
                   <tr className="tableHeadingStyling">
                     <th>SALES ASSOCIATE</th>
                     <th>ASSIGN</th>
                     <th>PICKUP SCHEDULE</th>
-                    <th>CUSTOMER NAME</th>
+                    <th><div>CUSTOMER NAME</div></th>
                     <th>ORDER ID</th>
                     <th>AISLE DETAILS</th>
                     <th>ORDER STATUS</th>
@@ -3512,7 +3537,8 @@ function AcknowledgeAlert() {
                             border: "1px solid #DC6803",
                             lineHeight: "19.2px",
                             height: "32px",
-                            fontFamily: 'Lato !important'
+                            fontFamily: 'Lato !important',
+                            minWidth: '149px'
                           }}
                         >
                           <span className='readyForPickupButtonStyle'>
@@ -3522,7 +3548,7 @@ function AcknowledgeAlert() {
                       </div>
                     </td>
                     <td>
-                      <div className='row'>
+                      <div className='row' style={{width: 'max-content'}}>
                         <div className="col spaceBetweenPrinterIcon">
                           <button
                             className="thFontColor"
@@ -3824,7 +3850,9 @@ function AcknowledgeAlert() {
                                     style={{
                                       width: "125px",
                                       height: "48px",
+                                      border: '1px solid #000000',
                                       backgroundColor: "#FFFFFF",
+                                      WebkitTextFillColor: 'black',
                                       color: "black !important",
                                       fontWeight: '700',
                                       fontSize: '16px',
@@ -3979,7 +4007,8 @@ function AcknowledgeAlert() {
                             border: "1px solid #DC6803",
                             lineHeight: "19.2px",
                             height: "32px",
-                            fontFamily: 'Lato !important'
+                            fontFamily: 'Lato !important',
+                            minWidth: '149px'
                           }}
                         >
                           <span className='readyForPickupButtonStyle'>
@@ -4290,7 +4319,9 @@ function AcknowledgeAlert() {
                                     style={{
                                       width: "125px",
                                       height: "48px",
+                                      border: '1px solid #000000',
                                       backgroundColor: "#FFFFFF",
+                                      WebkitTextFillColor: 'black',
                                       color: "black !important",
                                       fontWeight: '700',
                                       fontSize: '16px',
@@ -4444,7 +4475,8 @@ function AcknowledgeAlert() {
                             border: "1px solid #DC6803",
                             lineHeight: "19.2px",
                             height: "32px",
-                            fontFamily: 'Lato !important'
+                            fontFamily: 'Lato !important',
+                            minWidth: '149px'
                           }}
                         >
                           <span className='readyForPickupButtonStyle'>
@@ -4776,7 +4808,9 @@ function AcknowledgeAlert() {
                                     style={{
                                       width: "125px",
                                       height: "48px",
+                                      border: '1px solid #000000',
                                       backgroundColor: "#FFFFFF",
+                                      WebkitTextFillColor: 'black',
                                       color: "black !important",
                                       fontWeight: '700',
                                       fontSize: '16px',
@@ -4908,7 +4942,7 @@ function AcknowledgeAlert() {
                         type="button"
                         className="noShowDeclinedButtonStyle"
                         style={{
-                          width: '87px',
+                          width: '89px',
                           height: '32px'
                         }}
                       >
@@ -5217,7 +5251,9 @@ function AcknowledgeAlert() {
                                     style={{
                                       width: "125px",
                                       height: "48px",
+                                      border: '1px solid #000000',
                                       backgroundColor: "#FFFFFF",
+                                      WebkitTextFillColor: 'black',
                                       color: "black !important",
                                       fontWeight: '700',
                                       fontSize: '16px',
@@ -5349,7 +5385,7 @@ function AcknowledgeAlert() {
                         type="button"
                         className="noShowDeclinedButtonStyle"
                         style={{
-                          width: '87px',
+                          width: '89px',
                           height: '32px'
                         }}
                       >
@@ -5658,7 +5694,9 @@ function AcknowledgeAlert() {
                                     style={{
                                       width: "125px",
                                       height: "48px",
+                                      border: '1px solid #000000',
                                       backgroundColor: "#FFFFFF",
+                                      WebkitTextFillColor: 'black',
                                       color: "black !important",
                                       fontWeight: '700',
                                       fontSize: '16px',
@@ -5808,7 +5846,8 @@ function AcknowledgeAlert() {
                             border: "1px solid #DC6803",
                             lineHeight: "19.2px",
                             height: "32px",
-                            fontFamily: 'Lato !important'
+                            fontFamily: 'Lato !important',
+                            minWidth: '149px'
                           }}
                         >
                           <span className='readyForPickupButtonStyle'>
@@ -6139,7 +6178,9 @@ function AcknowledgeAlert() {
                                     style={{
                                       width: "125px",
                                       height: "48px",
+                                      border: '1px solid #000000',
                                       backgroundColor: "#FFFFFF",
+                                      WebkitTextFillColor: 'black',
                                       color: "black !important",
                                       fontWeight: '700',
                                       fontSize: '16px',
@@ -6276,7 +6317,8 @@ function AcknowledgeAlert() {
                             border: "1px solid #DC6803",
                             lineHeight: "19.2px",
                             height: "32px",
-                            fontFamily: 'Lato !important'
+                            fontFamily: 'Lato !important',
+                            minWidth: '149px'
                           }}
                         >
                           <span className='readyForPickupButtonStyle'>
@@ -6491,7 +6533,6 @@ function AcknowledgeAlert() {
                                     <div className="row>">
                                       <span
                                         style={{
-                                          fontFamily: "Lato",
                                           fontWeight: "700",
                                           fontStyle: "bold",
                                           fontSize: "16px",
@@ -6587,7 +6628,9 @@ function AcknowledgeAlert() {
                                     style={{
                                       width: "125px",
                                       height: "48px",
+                                      border: '1px solid #000000',
                                       backgroundColor: "#FFFFFF",
+                                      WebkitTextFillColor: 'black',
                                       color: "black !important",
                                       fontWeight: '700',
                                       fontSize: '16px',
@@ -6724,7 +6767,8 @@ function AcknowledgeAlert() {
                             border: "1px solid #DC6803",
                             lineHeight: "19.2px",
                             height: "32px",
-                            fontFamily: 'Lato !important'
+                            fontFamily: 'Lato !important',
+                            minWidth: '149px'
                           }}
                         >
                           <span className='readyForPickupButtonStyle'>
@@ -7035,7 +7079,9 @@ function AcknowledgeAlert() {
                                     style={{
                                       width: "125px",
                                       height: "48px",
+                                      border: '1px solid #000000',
                                       backgroundColor: "#FFFFFF",
+                                      WebkitTextFillColor: 'black',
                                       color: "black !important",
                                       fontWeight: '700',
                                       fontSize: '16px',
@@ -7063,6 +7109,8 @@ function AcknowledgeAlert() {
                   </tr>
                 </tbody>
               </Table>
+              </div>
+              
             </TabPanel>
           </div>
 
