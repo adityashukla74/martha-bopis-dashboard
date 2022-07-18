@@ -438,6 +438,25 @@ function Alertpage() {
     }
   }
 
+  async function julieSubmit() {
+    console.log('Julie Order status: Inside');
+    const res = await fetch("/api/sendsms", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ to: '+919675875285', body: 'Julie, thank you for choosing in-store pickup! Please provide feedback to help us improve the experience by clicking on this url : https://thankyou-bopis.vercel.app/' }),
+    });
+
+    const data = await res.json();
+    if (data.success) {
+      console.log('sms is success');
+    } else {
+      console.log('unable to send sms');
+    }
+  }
+  
+
   return (
     <>
       <div className="secondHalfBodyStyling2">

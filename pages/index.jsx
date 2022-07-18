@@ -531,7 +531,6 @@ function Home() {
                     style={{ 
                       backgroundColor: "#F0F0F0", 
                       whiteSpace: 'nowrap'
-                      // lineHeight: "50px" 
                     }}
                   >
                     <tr
@@ -540,7 +539,7 @@ function Home() {
                       <th style={{width: '21%'}}>CUSTOMER NAME</th>
                       <th style={{width: '13%'}}>ORDER ID</th>
                       <th style={{width: '15%'}}>AISLE DETAILS</th>
-                      <th style={{width: '24%'}}>ORDER STATUS</th>
+                      <th style={{width: '28%'}}>ORDER STATUS</th>
                       <th>DETAILS</th>
                     </tr>
                   </thead>
