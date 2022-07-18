@@ -434,7 +434,7 @@ function AcknowledgeAlert() {
       console.log('unable to send sms');
     }
   }
-  
+
   return (
     <>
       <div className="secondHalfBodyStyling">
@@ -443,7 +443,7 @@ function AcknowledgeAlert() {
             className="notification-center"
             style={{
               width: '100%',
-              height: '152px',
+              height: '110px',
               marginTop: '40px',
               backgroundColor: '#FFFFFF',
               borderLeft: '4px solid #F04438'
@@ -451,7 +451,7 @@ function AcknowledgeAlert() {
             <div
               style={{
                 marginLeft: '32px',
-                paddingTop: '60px',
+                paddingTop: '4%',
                 width: '500px',
                 height: '88px',
                 float: 'left'
@@ -500,7 +500,7 @@ function AcknowledgeAlert() {
                 justifyContent: 'end',
 
               }}>
-              <div style={{ paddingTop: '52px', paddingRight:"40px" }}>
+              <div style={{ paddingTop: '8%', paddingRight:"40px" }}>
                 <Image
                   alt="Image Alt"
                   src="/call.svg"
@@ -508,7 +508,7 @@ function AcknowledgeAlert() {
                   height={48}
                 />
               </div>
-              <div style={{paddingTop: '36px', paddingRight:"32px"}}>
+              <div style={{paddingTop: '4%', paddingRight:"32px"}}>
                 <Image
                   alt="Image Alt"
                   src="/timer.svg"
