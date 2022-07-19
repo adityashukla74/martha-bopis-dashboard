@@ -3367,9 +3367,13 @@ function Home() {
                 </span>
               </div>
               <div className= 'table1'>
-              <Table size="sm" className='teamViewFontColor' style={{ marginTop: '9px' }}>
+              <Table 
+              responsive="sm" 
+              className='teamViewFontColor' 
+              style={{ marginTop: '9px' }}>
                 <thead
-                  style={{ backgroundColor: "#F0F0F0", whiteSpace: 'nowrap' }}
+                responsive="sm" 
+                  style={{ backgroundColor: "#F0F0F0" }}
                 >
                   <tr className="tableHeadingStyling">
                     <th>SALES ASSOCIATE</th>
